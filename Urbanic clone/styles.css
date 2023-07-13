@@ -1,0 +1,96 @@
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h1, h2, h3 {
+    
+    padding: 5px;
+    margin: 0;
+  }
+
+
+
+  nav ul{
+    text-align :center;
+    list-style :none;
+    
+}
+nav li {
+    display:inline-block;
+     color: black;
+    margin-right: 90px; 
+    font-size:medium;
+
+   
+    
+}
+
+nav{
+    background-color:white;
+    padding: 10px;
+    
+} 
+
+
+#style{
+    font-size: large;
+}
+
+
+
+.list {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* CSS for the images */
+.images {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+header {
+  padding-bottom: 20px; /* Adjust the value as needed */
+}
+
+main {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* CSS for the image */
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+/* CSS for the text */
+.image-box p {
+  margin-top: 10px;
+}
+
+.box {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+   
+
+
+
+
+
+
+
+
+
+

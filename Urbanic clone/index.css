@@ -1,0 +1,45 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .box {
+        flex-basis: 45%;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .box h2 {
+        margin-top: 0;
+    }
+   /* Styles for phones */
+@media (max-width: 767px) {
+    /* Add your phone-specific styles here */
+  }
+  
+  /* Styles for laptops and larger screens */
+  @media (min-width: 768px) {
+    /* Add your laptop-specific styles here */
+  }
+  

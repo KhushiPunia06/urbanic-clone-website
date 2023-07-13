@@ -1,0 +1,22 @@
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+    
+    .image-box {
+        width: 45%;
+        padding: 1rem;
+        border: 1px solid #ccc;
+    }
+    
+    .image-box img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .image-box h2 {
+        margin-top: 0;
+    }
+
