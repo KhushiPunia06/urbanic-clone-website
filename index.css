@@ -43,3 +43,11 @@
     /* Add your laptop-specific styles here */
   }
   
+  
+  .carousel {
+    margin-bottom: 0;
+  }
+
+  .container {
+    margin-top: 0;
+  }
