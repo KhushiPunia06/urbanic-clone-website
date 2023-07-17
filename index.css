@@ -33,14 +33,5 @@
     .box h2 {
         margin-top: 0;
     }
-   /* Styles for phones */
-@media (max-width: 767px) {
-    /* Add your phone-specific styles here */
-  }
-  
-  /* Styles for laptops and larger screens */
-  @media (min-width: 768px) {
-    /* Add your laptop-specific styles here */
-  }
-  
+
 
