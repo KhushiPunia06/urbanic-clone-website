@@ -43,5 +43,17 @@
     /* Add your laptop-specific styles here */
   }
   
-  
+  @media (max-width: 768px) {
+    /* Styles for devices with a maximum width of 768px (e.g., phones) */
+    .banner {
+        height: 200px; /* Adjust the height for mobile devices */
+    }
+}
+
+@media (min-width: 769px) {
+    /* Styles for devices with a minimum width of 769px (e.g., laptops) */
+    .banner {
+        height: 400px; /* Adjust the height for laptops or larger screens */
+    }
+}
   
