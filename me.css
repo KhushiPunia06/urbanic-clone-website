@@ -12,21 +12,46 @@
     }
 
     .container {
+       
         display: flex;
         justify-content: space-between;
         width: 80%;
     }
 
     .box {
+        
         flex-basis: 30%;
-        padding: 1rem;
-        border: 1px solid #ccc;
+        padding: 6rem;
+        border: 1px solid black;
         text-align: center;
     }
+  
 
+
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0; /* Remove margin from the container */
+      }
+      
+      .box {
+        flex-basis: 30%;
+        padding: 6rem;
+        border: 1px solid black;
+        text-align: center;
+        margin: 0; /* Remove top and bottom margin from the box */
+      }
+      
     .box h2 {
         margin-top: 0;
     }
+
+
+
+    
+      
 
 
 
