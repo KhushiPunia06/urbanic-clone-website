@@ -25,24 +25,6 @@
         border: 1px solid black;
         text-align: center;
     }
-  
-
-
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-        margin: 0; /* Remove margin from the container */
-      }
-      
-      .box {
-        flex-basis: 30%;
-        padding: 6rem;
-        border: 1px solid black;
-        text-align: center;
-        margin: 0; /* Remove top and bottom margin from the box */
-      }
       
     .box h2 {
         margin-top: 0;
@@ -50,6 +32,45 @@
 
 
 
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .rectangle-box {
+        background-color: #f0f0f0;
+        text-align: center;
+        padding: 3rem;
+      }
+      
+      .heading {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .table-container {
+        width: 100%;
+        background-color: #e0e0e0;
+        padding: 2rem ;
+      }
+      
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        
+      }
+      
+      td {
+        font-size: 24px;
+        padding: 10px;
+        border: 1px solid #333;
+      }
+      
+      
     
       
 
